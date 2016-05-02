@@ -1,0 +1,48 @@
+
+nav {
+  margin: 0%
+  padding-top: 1rem:;
+  color: white;
+ font-family: 'Oswald', sans-serif;
+  text-transform: uppercase; 
+}
+
+a {
+   text-decoration: none;
+  color: #E6146F;
+  }
+  #caja-menu {
+  background-color:black;
+ width: 100%;
+  height: 20%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+ margin-bottom: 20px;
+ overflow:auto; 
+  }
+
+  #caja-menu-logo {
+  color:white;
+  float: left; 
+  padding-left: 1rem;
+}
+
+#caja-menu-container {
+  float: right;
+  
+media (min-width: $tablet-width) {
+		height: 1040px;
+		width: 235px;
+	}
+}
+li {
+  display: list-item;
+  text-align: none; 
+}
+ ol, ul {
+  list-style: none;
+   }

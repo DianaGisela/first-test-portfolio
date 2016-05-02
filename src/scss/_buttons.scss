@@ -1,0 +1,46 @@
+.btn {
+
+&-form{
+
+    background-color: #E6146F;
+    padding: 1px 1px 1px 1px;
+    margin-left: 1%;
+    color: white;
+    height: 30px;
+    min-width: 200px;
+    width: 40%;
+    text-transform: uppercase;
+
+&-b{
+    text-align: center;
+    width: 30%;
+    background-color: #E6146F;
+    margin-top: 25.5rem;
+    margin-left: 7rem;
+    padding: 10px 50px 20px 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    min-width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+		@media (min-width: $tablet-width) {
+			margin: 0 auto;
+		}
+	}
+
+	&-form{
+    background-color: #E6146F;
+   padding: 10px 50px 20px 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    min-width: 200px;
+    width: 70%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

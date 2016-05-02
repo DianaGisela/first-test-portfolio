@@ -1,0 +1,46 @@
+
+.diana{
+  background-image: url("img/Diana-profile.jpg");
+  width: 100%;
+  margin: 1rem auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+
+  @media (min-width: $tablet-width) {
+		 max-width: 35%;
+       margin-left: 3.2rem;
+      float: left;
+      height: 22rem;
+	}
+}
+ 
+
+.legado{
+   background-image: url("img/legado.png");
+   width: 100%;
+   margin: 1rem auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 100px;
+   max-height: 300px;
+  
+
+  @media (min-width: $tablet-width) {
+		max-width: 35%;
+     margin-top: .5rem;
+     margin-left: 5rem;
+    float: left;
+    height: 22rem;
+}
+}
+
+  .contenedor{
+  background-image: url("img/portada.png");
+  margin-top: 3%;
+  padding-top: 5%;
+  top: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  }
